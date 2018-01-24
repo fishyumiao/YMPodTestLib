@@ -1,0 +1,6 @@
+framework module YMPodTestLib {
+  umbrella header "YMPodTestLib-umbrella.h"
+
+  export *
+  module * { export * }
+}
