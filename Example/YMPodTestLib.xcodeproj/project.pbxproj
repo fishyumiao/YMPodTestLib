@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		18279E2178053D0CB797DD45 /* YMPodTestLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YMPodTestLib.podspec; path = ../YMPodTestLib.podspec; sourceTree = "<group>"; };
+		18279E2178053D0CB797DD45 /* YMPodTestLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YMPodTestLib.podspec; path = ../YMPodTestLib.podspec; sourceTree = "<group>"; };
 		1F8F5440A0F9BE4B4D3C1813 /* Pods-YMPodTestLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YMPodTestLib_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-YMPodTestLib_Example/Pods-YMPodTestLib_Example.release.xcconfig"; sourceTree = "<group>"; };
 		23BAF227C2FD7FF76F48EDE0 /* Pods_YMPodTestLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YMPodTestLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A2C184AB280C8394AFA7070 /* Pods-YMPodTestLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YMPodTestLib_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YMPodTestLib_Example/Pods-YMPodTestLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -62,8 +62,8 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9A75AB99F2077CB7DFB238D4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		9DDEA054230FDC04A1AFA8D7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		9A75AB99F2077CB7DFB238D4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		9DDEA054230FDC04A1AFA8D7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		D3DD7B13A5994C645598C454 /* Pods_YMPodTestLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YMPodTestLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE15A90C7441F12EDB6D913E /* Pods-YMPodTestLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YMPodTestLib_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YMPodTestLib_Tests/Pods-YMPodTestLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		FB4030CE7C85CFA42788EE09 /* Pods-YMPodTestLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YMPodTestLib_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YMPodTestLib_Tests/Pods-YMPodTestLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -251,6 +251,7 @@
 				ORGANIZATIONNAME = "fishyumiao@163.com";
 				TargetAttributes = {
 					6003F5AD195388D20070C39A = {
+						LastSwiftMigration = 0830;
 						TestTargetID = 6003F589195388D20070C39A;
 					};
 				};
@@ -568,6 +569,7 @@
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YMPodTestLib_Example.app/YMPodTestLib_Example";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -588,6 +590,7 @@
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YMPodTestLib_Example.app/YMPodTestLib_Example";
 				WRAPPER_EXTENSION = xctest;
 			};

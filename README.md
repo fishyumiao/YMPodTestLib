@@ -22,7 +22,7 @@ pod 'YMPodTestLib'
 
 ## Author
 
-fishyumiao@163.com, fishyumiao@163.com
+fishyumiao@163.com
 
 ## License
 
