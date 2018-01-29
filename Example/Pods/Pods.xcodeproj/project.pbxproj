@@ -157,6 +157,24 @@
 		B260BA80201EB00400C59EF9 /* CTAssetThumbnailStacks.m in Sources */ = {isa = PBXBuildFile; fileRef = B260BA4F201EB00300C59EF9 /* CTAssetThumbnailStacks.m */; };
 		B260BA81201EB00400C59EF9 /* CTAssetThumbnailView.h in Headers */ = {isa = PBXBuildFile; fileRef = B260BA50201EB00300C59EF9 /* CTAssetThumbnailView.h */; };
 		B260BA82201EB00400C59EF9 /* CTAssetThumbnailView.m in Sources */ = {isa = PBXBuildFile; fileRef = B260BA51201EB00300C59EF9 /* CTAssetThumbnailView.m */; };
+		B260BAB0201EBC3900C59EF9 /* CTAssetsPageViewController+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = B260BA84201EBC3900C59EF9 /* CTAssetsPageViewController+Internal.h */; };
+		B260BAB1201EBC3900C59EF9 /* CTAssetsPickerController+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = B260BA85201EBC3900C59EF9 /* CTAssetsPickerController+Internal.h */; };
+		B260BAB2201EBC3900C59EF9 /* NSBundle+CTAssetsPickerController.h in Headers */ = {isa = PBXBuildFile; fileRef = B260BA86201EBC3900C59EF9 /* NSBundle+CTAssetsPickerController.h */; };
+		B260BAB3201EBC3900C59EF9 /* NSBundle+CTAssetsPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = B260BA87201EBC3900C59EF9 /* NSBundle+CTAssetsPickerController.m */; };
+		B260BAB4201EBC3900C59EF9 /* NSDateFormatter+CTAssetsPickerController.h in Headers */ = {isa = PBXBuildFile; fileRef = B260BA88201EBC3900C59EF9 /* NSDateFormatter+CTAssetsPickerController.h */; };
+		B260BAB5201EBC3900C59EF9 /* NSDateFormatter+CTAssetsPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = B260BA89201EBC3900C59EF9 /* NSDateFormatter+CTAssetsPickerController.m */; };
+		B260BAB6201EBC3900C59EF9 /* NSIndexSet+CTAssetsPickerController.h in Headers */ = {isa = PBXBuildFile; fileRef = B260BA8A201EBC3900C59EF9 /* NSIndexSet+CTAssetsPickerController.h */; };
+		B260BAB7201EBC3900C59EF9 /* NSIndexSet+CTAssetsPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = B260BA8B201EBC3900C59EF9 /* NSIndexSet+CTAssetsPickerController.m */; };
+		B260BAB8201EBC3900C59EF9 /* NSNumberFormatter+CTAssetsPickerController.h in Headers */ = {isa = PBXBuildFile; fileRef = B260BA8C201EBC3900C59EF9 /* NSNumberFormatter+CTAssetsPickerController.h */; };
+		B260BAB9201EBC3900C59EF9 /* NSNumberFormatter+CTAssetsPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = B260BA8D201EBC3900C59EF9 /* NSNumberFormatter+CTAssetsPickerController.m */; };
+		B260BABA201EBC3900C59EF9 /* PHAsset+CTAssetsPickerController.h in Headers */ = {isa = PBXBuildFile; fileRef = B260BA8E201EBC3900C59EF9 /* PHAsset+CTAssetsPickerController.h */; };
+		B260BABB201EBC3900C59EF9 /* PHAsset+CTAssetsPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = B260BA8F201EBC3900C59EF9 /* PHAsset+CTAssetsPickerController.m */; };
+		B260BABC201EBC3900C59EF9 /* PHAssetCollection+CTAssetsPickerController.h in Headers */ = {isa = PBXBuildFile; fileRef = B260BA90201EBC3900C59EF9 /* PHAssetCollection+CTAssetsPickerController.h */; };
+		B260BABD201EBC3900C59EF9 /* PHAssetCollection+CTAssetsPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = B260BA91201EBC3900C59EF9 /* PHAssetCollection+CTAssetsPickerController.m */; };
+		B260BABE201EBC3900C59EF9 /* UICollectionView+CTAssetsPickerController.h in Headers */ = {isa = PBXBuildFile; fileRef = B260BA92201EBC3900C59EF9 /* UICollectionView+CTAssetsPickerController.h */; };
+		B260BABF201EBC3900C59EF9 /* UICollectionView+CTAssetsPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = B260BA93201EBC3900C59EF9 /* UICollectionView+CTAssetsPickerController.m */; };
+		B260BAC0201EBC3900C59EF9 /* UIImage+CTAssetsPickerController.h in Headers */ = {isa = PBXBuildFile; fileRef = B260BA94201EBC3900C59EF9 /* UIImage+CTAssetsPickerController.h */; };
+		B260BAC1201EBC3900C59EF9 /* UIImage+CTAssetsPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = B260BA95201EBC3900C59EF9 /* UIImage+CTAssetsPickerController.m */; };
 		B376B4A777F62028AF0965D93658413E /* SPTExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C75DFE8C463E28459A9A9DD7E921822 /* SPTExample.m */; };
 		B3F189747A7A3CEDA9200CB2749AC7D8 /* EXPMatchers+raiseWithReason.h in Headers */ = {isa = PBXBuildFile; fileRef = A833BC98F95E74ABFF866C85B3FC9338 /* EXPMatchers+raiseWithReason.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B89A19FA40C5F590F0AAD91908FD9DDB /* Specta.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C69DF8F7AD5A0ABA3453069F77F5742 /* Specta.framework */; };
@@ -438,6 +456,48 @@
 		B260BA4F201EB00300C59EF9 /* CTAssetThumbnailStacks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTAssetThumbnailStacks.m; sourceTree = "<group>"; };
 		B260BA50201EB00300C59EF9 /* CTAssetThumbnailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTAssetThumbnailView.h; sourceTree = "<group>"; };
 		B260BA51201EB00300C59EF9 /* CTAssetThumbnailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTAssetThumbnailView.m; sourceTree = "<group>"; };
+		B260BA84201EBC3900C59EF9 /* CTAssetsPageViewController+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CTAssetsPageViewController+Internal.h"; sourceTree = "<group>"; };
+		B260BA85201EBC3900C59EF9 /* CTAssetsPickerController+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CTAssetsPickerController+Internal.h"; sourceTree = "<group>"; };
+		B260BA86201EBC3900C59EF9 /* NSBundle+CTAssetsPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+CTAssetsPickerController.h"; sourceTree = "<group>"; };
+		B260BA87201EBC3900C59EF9 /* NSBundle+CTAssetsPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+CTAssetsPickerController.m"; sourceTree = "<group>"; };
+		B260BA88201EBC3900C59EF9 /* NSDateFormatter+CTAssetsPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDateFormatter+CTAssetsPickerController.h"; sourceTree = "<group>"; };
+		B260BA89201EBC3900C59EF9 /* NSDateFormatter+CTAssetsPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDateFormatter+CTAssetsPickerController.m"; sourceTree = "<group>"; };
+		B260BA8A201EBC3900C59EF9 /* NSIndexSet+CTAssetsPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSIndexSet+CTAssetsPickerController.h"; sourceTree = "<group>"; };
+		B260BA8B201EBC3900C59EF9 /* NSIndexSet+CTAssetsPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSIndexSet+CTAssetsPickerController.m"; sourceTree = "<group>"; };
+		B260BA8C201EBC3900C59EF9 /* NSNumberFormatter+CTAssetsPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumberFormatter+CTAssetsPickerController.h"; sourceTree = "<group>"; };
+		B260BA8D201EBC3900C59EF9 /* NSNumberFormatter+CTAssetsPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumberFormatter+CTAssetsPickerController.m"; sourceTree = "<group>"; };
+		B260BA8E201EBC3900C59EF9 /* PHAsset+CTAssetsPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PHAsset+CTAssetsPickerController.h"; sourceTree = "<group>"; };
+		B260BA8F201EBC3900C59EF9 /* PHAsset+CTAssetsPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PHAsset+CTAssetsPickerController.m"; sourceTree = "<group>"; };
+		B260BA90201EBC3900C59EF9 /* PHAssetCollection+CTAssetsPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PHAssetCollection+CTAssetsPickerController.h"; sourceTree = "<group>"; };
+		B260BA91201EBC3900C59EF9 /* PHAssetCollection+CTAssetsPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PHAssetCollection+CTAssetsPickerController.m"; sourceTree = "<group>"; };
+		B260BA92201EBC3900C59EF9 /* UICollectionView+CTAssetsPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+CTAssetsPickerController.h"; sourceTree = "<group>"; };
+		B260BA93201EBC3900C59EF9 /* UICollectionView+CTAssetsPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+CTAssetsPickerController.m"; sourceTree = "<group>"; };
+		B260BA94201EBC3900C59EF9 /* UIImage+CTAssetsPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CTAssetsPickerController.h"; sourceTree = "<group>"; };
+		B260BA95201EBC3900C59EF9 /* UIImage+CTAssetsPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CTAssetsPickerController.m"; sourceTree = "<group>"; };
+		B260BA98201EBC3900C59EF9 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/CTAssetsPicker.strings; sourceTree = "<group>"; };
+		B260BA99201EBC3900C59EF9 /* CTAssetsPicker.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = CTAssetsPicker.xcassets; sourceTree = "<group>"; };
+		B260BA9A201EBC3900C59EF9 /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/CTAssetsPicker.strings; sourceTree = "<group>"; };
+		B260BA9B201EBC3900C59EF9 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/CTAssetsPicker.strings; sourceTree = "<group>"; };
+		B260BA9C201EBC3900C59EF9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/CTAssetsPicker.strings; sourceTree = "<group>"; };
+		B260BA9D201EBC3900C59EF9 /* es-MX */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-MX"; path = "es-MX.lproj/CTAssetsPicker.strings"; sourceTree = "<group>"; };
+		B260BA9E201EBC3900C59EF9 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/CTAssetsPicker.strings; sourceTree = "<group>"; };
+		B260BA9F201EBC3900C59EF9 /* fi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fi; path = fi.lproj/CTAssetsPicker.strings; sourceTree = "<group>"; };
+		B260BAA0201EBC3900C59EF9 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/CTAssetsPicker.strings; sourceTree = "<group>"; };
+		B260BAA1201EBC3900C59EF9 /* he */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = he; path = he.lproj/CTAssetsPicker.strings; sourceTree = "<group>"; };
+		B260BAA2201EBC3900C59EF9 /* hi-IN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "hi-IN"; path = "hi-IN.lproj/CTAssetsPicker.strings"; sourceTree = "<group>"; };
+		B260BAA3201EBC3900C59EF9 /* hu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hu; path = hu.lproj/CTAssetsPicker.strings; sourceTree = "<group>"; };
+		B260BAA4201EBC3900C59EF9 /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = id.lproj/CTAssetsPicker.strings; sourceTree = "<group>"; };
+		B260BAA5201EBC3900C59EF9 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/CTAssetsPicker.strings; sourceTree = "<group>"; };
+		B260BAA6201EBC3900C59EF9 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/CTAssetsPicker.strings; sourceTree = "<group>"; };
+		B260BAA7201EBC3900C59EF9 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/CTAssetsPicker.strings; sourceTree = "<group>"; };
+		B260BAA8201EBC3900C59EF9 /* nl-NL */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "nl-NL"; path = "nl-NL.lproj/CTAssetsPicker.strings"; sourceTree = "<group>"; };
+		B260BAA9201EBC3900C59EF9 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/CTAssetsPicker.strings; sourceTree = "<group>"; };
+		B260BAAA201EBC3900C59EF9 /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/CTAssetsPicker.strings"; sourceTree = "<group>"; };
+		B260BAAB201EBC3900C59EF9 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/CTAssetsPicker.strings; sourceTree = "<group>"; };
+		B260BAAC201EBC3900C59EF9 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/CTAssetsPicker.strings; sourceTree = "<group>"; };
+		B260BAAD201EBC3900C59EF9 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/CTAssetsPicker.strings; sourceTree = "<group>"; };
+		B260BAAE201EBC3900C59EF9 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/CTAssetsPicker.strings"; sourceTree = "<group>"; };
+		B260BAAF201EBC3900C59EF9 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/CTAssetsPicker.strings"; sourceTree = "<group>"; };
 		B34472CAE1E8EC26152CEFB1E82BE050 /* EXPExpect.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPExpect.m; path = Expecta/EXPExpect.m; sourceTree = "<group>"; };
 		B44593C7806808BFFCA8CE943799073B /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
 		B4A617F1464A48980127A218AB18B898 /* EXPDoubleTuple.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPDoubleTuple.h; path = Expecta/EXPDoubleTuple.h; sourceTree = "<group>"; };
@@ -661,6 +721,8 @@
 		324D1EF95460CC26440983AB0962B576 /* YMPodTestLib */ = {
 			isa = PBXGroup;
 			children = (
+				B260BA83201EBC3900C59EF9 /* Categories */,
+				B260BA96201EBC3900C59EF9 /* Resources */,
 				963D44CA967EF4E0DF2ADB8F7A8A9C46 /* Classes */,
 			);
 			path = YMPodTestLib;
@@ -869,6 +931,40 @@
 			name = SwiftSupport;
 			sourceTree = "<group>";
 		};
+		B260BA83201EBC3900C59EF9 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				B260BA84201EBC3900C59EF9 /* CTAssetsPageViewController+Internal.h */,
+				B260BA85201EBC3900C59EF9 /* CTAssetsPickerController+Internal.h */,
+				B260BA86201EBC3900C59EF9 /* NSBundle+CTAssetsPickerController.h */,
+				B260BA87201EBC3900C59EF9 /* NSBundle+CTAssetsPickerController.m */,
+				B260BA88201EBC3900C59EF9 /* NSDateFormatter+CTAssetsPickerController.h */,
+				B260BA89201EBC3900C59EF9 /* NSDateFormatter+CTAssetsPickerController.m */,
+				B260BA8A201EBC3900C59EF9 /* NSIndexSet+CTAssetsPickerController.h */,
+				B260BA8B201EBC3900C59EF9 /* NSIndexSet+CTAssetsPickerController.m */,
+				B260BA8C201EBC3900C59EF9 /* NSNumberFormatter+CTAssetsPickerController.h */,
+				B260BA8D201EBC3900C59EF9 /* NSNumberFormatter+CTAssetsPickerController.m */,
+				B260BA8E201EBC3900C59EF9 /* PHAsset+CTAssetsPickerController.h */,
+				B260BA8F201EBC3900C59EF9 /* PHAsset+CTAssetsPickerController.m */,
+				B260BA90201EBC3900C59EF9 /* PHAssetCollection+CTAssetsPickerController.h */,
+				B260BA91201EBC3900C59EF9 /* PHAssetCollection+CTAssetsPickerController.m */,
+				B260BA92201EBC3900C59EF9 /* UICollectionView+CTAssetsPickerController.h */,
+				B260BA93201EBC3900C59EF9 /* UICollectionView+CTAssetsPickerController.m */,
+				B260BA94201EBC3900C59EF9 /* UIImage+CTAssetsPickerController.h */,
+				B260BA95201EBC3900C59EF9 /* UIImage+CTAssetsPickerController.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		B260BA96201EBC3900C59EF9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B260BA97201EBC3900C59EF9 /* CTAssetsPicker.strings */,
+				B260BA99201EBC3900C59EF9 /* CTAssetsPicker.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		C29C93E7F175EC9CDE6E55BE676C8B75 /* Specta */ = {
 			isa = PBXGroup;
 			children = (
@@ -1037,6 +1133,7 @@
 				B260BA6A201EB00400C59EF9 /* CTAssetsGridViewFooter.h in Headers */,
 				214F8D721940BD9AA4BAB0E5AE2E8A1C /* EXPBlockDefinedMatcher.h in Headers */,
 				5D4700451D6C9DFC6D5FFB86671EA2AC /* EXPDefines.h in Headers */,
+				B260BABA201EBC3900C59EF9 /* PHAsset+CTAssetsPickerController.h in Headers */,
 				39461DAB3DE2637F4AE2BA94F19DCF2B /* EXPDoubleTuple.h in Headers */,
 				B260BA6E201EB00400C59EF9 /* CTAssetsNavigationController.h in Headers */,
 				B260BA64201EB00400C59EF9 /* CTAssetsGridView.h in Headers */,
@@ -1051,6 +1148,8 @@
 				B260BA76201EB00400C59EF9 /* CTAssetsPickerController.h in Headers */,
 				B260BA62201EB00400C59EF9 /* CTAssetsGridSelectedView.h in Headers */,
 				B260BA60201EB00400C59EF9 /* CTAssetSelectionLabel.h in Headers */,
+				B260BABC201EBC3900C59EF9 /* PHAssetCollection+CTAssetsPickerController.h in Headers */,
+				B260BAB1201EBC3900C59EF9 /* CTAssetsPickerController+Internal.h in Headers */,
 				E61E28B50602F353D95914765667969F /* EXPMatcherHelpers.h in Headers */,
 				B260BA7F201EB00400C59EF9 /* CTAssetThumbnailStacks.h in Headers */,
 				4861F2FFD5A4306E7B7BD3CD0D8199AC /* EXPMatchers+beCloseTo.h in Headers */,
@@ -1062,10 +1161,12 @@
 				B260BA7D201EB00400C59EF9 /* CTAssetThumbnailOverlay.h in Headers */,
 				B260BA54201EB00400C59EF9 /* CTAssetCollectionViewCell.h in Headers */,
 				B260BA81201EB00400C59EF9 /* CTAssetThumbnailView.h in Headers */,
+				B260BAC0201EBC3900C59EF9 /* UIImage+CTAssetsPickerController.h in Headers */,
 				B260BA79201EB00400C59EF9 /* CTAssetsPickerNoAssetsView.h in Headers */,
 				B260BA72201EB00400C59EF9 /* CTAssetsPageViewController.h in Headers */,
 				5F160713BF583BCBC136CE95E62F9C2F /* EXPMatchers+beInstanceOf.h in Headers */,
 				FC223395BCEE46EB920CECD38AFD4402 /* EXPMatchers+beInTheRangeOf.h in Headers */,
+				B260BABE201EBC3900C59EF9 /* UICollectionView+CTAssetsPickerController.h in Headers */,
 				B260BA70201EB00400C59EF9 /* CTAssetsPageView.h in Headers */,
 				B260BA7B201EB00400C59EF9 /* CTAssetsViewControllerTransition.h in Headers */,
 				41CC214541946B82A25CE427BB81ABEA /* EXPMatchers+beKindOf.h in Headers */,
@@ -1076,9 +1177,11 @@
 				CB99A2D7D003745153A564346DF8ABA8 /* EXPMatchers+beSubclassOf.h in Headers */,
 				B260BA74201EB00400C59EF9 /* CTAssetsPickerAccessDeniedView.h in Headers */,
 				FC6474103AA989EBD5368772037BE0BB /* EXPMatchers+beSupersetOf.h in Headers */,
+				B260BAB2201EBC3900C59EF9 /* NSBundle+CTAssetsPickerController.h in Headers */,
 				B260BA5A201EB00400C59EF9 /* CTAssetPlayButton.h in Headers */,
 				F74F0174B426B7EAB501A3788E5D381F /* EXPMatchers+beTruthy.h in Headers */,
 				DC423A980C991970F4D637AC4C47D863 /* EXPMatchers+conformTo.h in Headers */,
+				B260BAB6201EBC3900C59EF9 /* NSIndexSet+CTAssetsPickerController.h in Headers */,
 				E3355DB3F63F6FE79FD8DD6188B0B3A4 /* EXPMatchers+contain.h in Headers */,
 				87AE70A44BD8E8676B2A3EDB6E334138 /* EXPMatchers+endWith.h in Headers */,
 				B260BA52201EB00400C59EF9 /* CTAssetCheckmark.h in Headers */,
@@ -1087,6 +1190,7 @@
 				8F990515E868D90C15D2148DD1A22403 /* EXPMatchers+haveCountOf.h in Headers */,
 				B260BA66201EB00400C59EF9 /* CTAssetsGridViewCell.h in Headers */,
 				597E5A323FD0306B81C3F7E9C8E5580D /* EXPMatchers+match.h in Headers */,
+				B260BAB0201EBC3900C59EF9 /* CTAssetsPageViewController+Internal.h in Headers */,
 				A2D3CFFEBD3AEA2164A535192492F3B8 /* EXPMatchers+postNotification.h in Headers */,
 				A8446D8224F103BE7F4A5237A60F0EFB /* EXPMatchers+raise.h in Headers */,
 				B3F189747A7A3CEDA9200CB2749AC7D8 /* EXPMatchers+raiseWithReason.h in Headers */,
@@ -1098,7 +1202,9 @@
 				60CD83FA1B2BF6E93B59834C1E0CBEF0 /* EXPUnsupportedObject.h in Headers */,
 				DB8F3665E9E382DF52E0DCB4DECE5EAE /* NSObject+Expecta.h in Headers */,
 				5922E3B61E351E2A21095BD92E4FE8AC /* NSValue+Expecta.h in Headers */,
+				B260BAB8201EBC3900C59EF9 /* NSNumberFormatter+CTAssetsPickerController.h in Headers */,
 				B260BA6C201EB00400C59EF9 /* CTAssetsGridViewLayout.h in Headers */,
+				B260BAB4201EBC3900C59EF9 /* NSDateFormatter+CTAssetsPickerController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1288,6 +1394,28 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				ar,
+				da,
+				de,
+				"es-MX",
+				es,
+				fi,
+				fr,
+				he,
+				"hi-IN",
+				hu,
+				id,
+				it,
+				ja,
+				ko,
+				"nl-NL",
+				nl,
+				"pt-PT",
+				pt,
+				ru,
+				sv,
+				"zh-Hans",
+				"zh-Hant",
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
 			productRefGroup = 010EA2AB12A04DC2E8373DED7BF00318 /* Products */;
@@ -1380,16 +1508,20 @@
 				B260BA7A201EB00400C59EF9 /* CTAssetsPickerNoAssetsView.m in Sources */,
 				BFC7D32CFE8200730837306AFF61E5AD /* EXPExpect.m in Sources */,
 				B260BA80201EB00400C59EF9 /* CTAssetThumbnailStacks.m in Sources */,
+				B260BAB3201EBC3900C59EF9 /* NSBundle+CTAssetsPickerController.m in Sources */,
 				B260BA5B201EB00400C59EF9 /* CTAssetPlayButton.m in Sources */,
 				B260BA61201EB00400C59EF9 /* CTAssetSelectionLabel.m in Sources */,
 				B260BA7C201EB00400C59EF9 /* CTAssetsViewControllerTransition.m in Sources */,
 				B260BA5F201EB00400C59EF9 /* CTAssetSelectionButton.m in Sources */,
 				5E4F55D319FF771D658CCE335E7CB498 /* EXPFloatTuple.m in Sources */,
+				B260BAB7201EBC3900C59EF9 /* NSIndexSet+CTAssetsPickerController.m in Sources */,
 				B260BA57201EB00400C59EF9 /* CTAssetCollectionViewController.m in Sources */,
+				B260BAB9201EBC3900C59EF9 /* NSNumberFormatter+CTAssetsPickerController.m in Sources */,
 				150503B99F77D3D8897EFFC68C09A351 /* EXPMatcherHelpers.m in Sources */,
 				9A0ADF06F5B6BC3A70EDE1285BAF9346 /* EXPMatchers+beCloseTo.m in Sources */,
 				B260BA53201EB00400C59EF9 /* CTAssetCheckmark.m in Sources */,
 				8220368E5F7EA70947BAD2B6F216C61B /* EXPMatchers+beFalsy.m in Sources */,
+				B260BAC1201EBC3900C59EF9 /* UIImage+CTAssetsPickerController.m in Sources */,
 				A037AD9C808583B3EC9F49B3EEDA588A /* EXPMatchers+beginWith.m in Sources */,
 				FF394D6FEA84206182301180AE4CB957 /* EXPMatchers+beGreaterThan.m in Sources */,
 				C14CD98EE4DDC0B7689F058D5B79CC47 /* EXPMatchers+beGreaterThanOrEqualTo.m in Sources */,
@@ -1415,15 +1547,19 @@
 				285C6F6BE59E632CB219CD98B4EDC1AA /* EXPMatchers+endWith.m in Sources */,
 				E6D59CAA2A6E134A4643254406ED11F2 /* EXPMatchers+equal.m in Sources */,
 				C676818DADAC76EE2FDC5533CBF3648A /* EXPMatchers+haveCountOf.m in Sources */,
+				B260BABF201EBC3900C59EF9 /* UICollectionView+CTAssetsPickerController.m in Sources */,
 				B260BA5D201EB00400C59EF9 /* CTAssetScrollView.m in Sources */,
 				B260BA6F201EB00400C59EF9 /* CTAssetsNavigationController.m in Sources */,
 				BC530A8234C398F9F3AD1A1D41670B65 /* EXPMatchers+match.m in Sources */,
 				B260BA63201EB00400C59EF9 /* CTAssetsGridSelectedView.m in Sources */,
 				9F51005FE4BF10FA9906B02DAD609C6E /* EXPMatchers+postNotification.m in Sources */,
 				B260BA67201EB00400C59EF9 /* CTAssetsGridViewCell.m in Sources */,
+				B260BABD201EBC3900C59EF9 /* PHAssetCollection+CTAssetsPickerController.m in Sources */,
+				B260BAB5201EBC3900C59EF9 /* NSDateFormatter+CTAssetsPickerController.m in Sources */,
 				361B58CE2A28E03CA83A73617ED739F2 /* EXPMatchers+raise.m in Sources */,
 				B260BA6D201EB00400C59EF9 /* CTAssetsGridViewLayout.m in Sources */,
 				870CAAA15357EFF9E1619737DEE56067 /* EXPMatchers+raiseWithReason.m in Sources */,
+				B260BABB201EBC3900C59EF9 /* PHAsset+CTAssetsPickerController.m in Sources */,
 				A0612BA825C81CE45266B214DF3A8BCB /* EXPMatchers+respondTo.m in Sources */,
 				AE7BBD46BA00A9AC69249ADA56402162 /* EXPUnsupportedObject.m in Sources */,
 				A6CC81FC886EE8FF27EF4DD48D6F8F56 /* NSValue+Expecta.m in Sources */,
@@ -1492,6 +1628,39 @@
 			targetProxy = 4DDF989F04D3E1DCF12BBAA7836E70A9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B260BA97201EBC3900C59EF9 /* CTAssetsPicker.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B260BA98201EBC3900C59EF9 /* ar */,
+				B260BA9A201EBC3900C59EF9 /* da */,
+				B260BA9B201EBC3900C59EF9 /* de */,
+				B260BA9C201EBC3900C59EF9 /* en */,
+				B260BA9D201EBC3900C59EF9 /* es-MX */,
+				B260BA9E201EBC3900C59EF9 /* es */,
+				B260BA9F201EBC3900C59EF9 /* fi */,
+				B260BAA0201EBC3900C59EF9 /* fr */,
+				B260BAA1201EBC3900C59EF9 /* he */,
+				B260BAA2201EBC3900C59EF9 /* hi-IN */,
+				B260BAA3201EBC3900C59EF9 /* hu */,
+				B260BAA4201EBC3900C59EF9 /* id */,
+				B260BAA5201EBC3900C59EF9 /* it */,
+				B260BAA6201EBC3900C59EF9 /* ja */,
+				B260BAA7201EBC3900C59EF9 /* ko */,
+				B260BAA8201EBC3900C59EF9 /* nl-NL */,
+				B260BAA9201EBC3900C59EF9 /* nl */,
+				B260BAAA201EBC3900C59EF9 /* pt-PT */,
+				B260BAAB201EBC3900C59EF9 /* pt */,
+				B260BAAC201EBC3900C59EF9 /* ru */,
+				B260BAAD201EBC3900C59EF9 /* sv */,
+				B260BAAE201EBC3900C59EF9 /* zh-Hans */,
+				B260BAAF201EBC3900C59EF9 /* zh-Hant */,
+			);
+			name = CTAssetsPicker.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		048A0F1CF4D12E7DAC60104C31251F21 /* Debug */ = {
